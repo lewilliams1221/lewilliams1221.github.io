@@ -8,7 +8,21 @@
     margin-top: 0;
     margin-left: 20px;
     } */
-
+ /*Practicing with Flexbox*/
+ ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    background: beige;
+    width: 150px;
+    margin: 0 10px 10px 0;
+    padding: 5px;
+    text-align: center;
+}
 /*set the standard page class to any <li> that has the class*/
 .standard a:link {
     background-color: blueviolet;

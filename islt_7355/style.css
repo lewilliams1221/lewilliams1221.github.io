@@ -8,3 +8,24 @@ a {
   border: 1px solid purple;
   background-color: lightgrey;
 }
+
+p::first-letter {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: brown;
+}
+
+div.a {
+  text-indent: 50px;
+}
+
+div.b {
+  text-indent: 5%;
+}
+
+div {
+  background-color: lightgrey;
+  width: 15px 15px 15px 15px;
+  padding: 10px 10px 10px 10px;
+  margin: 20px;
+}

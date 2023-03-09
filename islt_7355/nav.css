@@ -60,9 +60,6 @@ nav a:link{
 nav a:hover, nav a:focus {
     background-color: brown;
 }
-nav a:standard{
-    background-color: crimson;
-}
 
 /*position sub-menu or drop-down*/
 nav ul>li ul {

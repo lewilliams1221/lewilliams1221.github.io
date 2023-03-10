@@ -1,59 +1,74 @@
 <!--
-
 Title: Leanne's Website
 Use: About Myself and Education Overview
 Author: Leanne Williams
 School/Term: Mizzou University, Spring 2023
-Developed: March 03, 2023
-Tested: March 03, 2023; Passed on Firefox and Chrome browsers.
-
+Developed: March 09, 2023
+Tested: March 09, 2023; Passed on Firefox and Chrome browsers.
 -->
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-               <meta charset="utf-8">
-               <title>About Me</title>
-               <link rel="stylesheet" href="style.css">
-               <link rel="stylesheet" href="nav.css">
-</head>
-<body>
-    <nav>
-           <ul>
-            <li class="standard"><a href="index.html"><b>Home</b></a></li>
-            <li><a href="about.html"><b>About</b></a></li>
-            <li><a href="projects.html"><b>Projects</b></a>
-              <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-              </ul>
-             </li>
-             <li><a href="reflection.html"><b>Reflection</b></a></li>
-             <li><a href="#"><b>Contact</b></a></li>
-            </ul>
-        </nav>
-        <br>
-        <br>
-    <h1>About Myself</h1>
-    <main>
-        <header>
-            <p>Hello, it is nice to meet everyone. My name is Leanne Williams. I am pursuing a Master’s in Library Information Science at Mizzou. My hobbies include reading, writing, friendly debates, traveling, and trying new foods. My goals in life are to become a public librarian and a fantasy writer. Becoming a writer is something that I have wanted to do since I was about seven years old. Libraries have always been my safe haven. I want to learn web design and development so that I am able to market myself when the time comes. The other reason is that I want to be able to create many learning tools and web pages for patron usage when I become a librarian. Ultimately, I hope to do many things in my life.</p>
-        
-            <h3><b>Education Overview</b></h3>
-            <p>I have a bachelor’s in History from the University of Missouri - Kansas City. I am currently enrolled in a Master’s in Library Information Science from the University of Missouri - Columbia. My estimated graduation date is May, 2024</p>
 
-            <p><a href ="resume.pdf"><b>My Resume</b></a></p>
-        
-            <blockquote>"Always forgive your enemies; nothing annoys them so much" - Oscar Wilde</blockquote>
-        </header>
+<head>
+    <meta charset="utf-8">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <div class="flex-container">
         <nav>
-        </nav>
-        <br>
-        <footer>
-            <p>Leanne Williams<br>
-            <a href="mailto:lewc77@umsystem.edu">lewc77@umsystem.edu</a><br>
-            <em> 2023 Leanne Williams Web Page. All Rights Reserved.</em></p>
-        </footer>
+            <ul>
+                <li class="standard"><a href="index.html"><b>Home</b></a></li>
+                <li><a href="about.html"><b>About</b></a></li>
+                <li><a href="projects.html"><b>Projects</b></a>
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="reflection.html"><b>Reflection</b></a></li>
+                <li><a href="#"><b>Contact</b></a></li>
+            </ul>
+    </div>
+    </nav>
+    <br>
+    <br>
+    <main>
+            <header>
+                <div class="wrapper">
+
+                <div class="box a">
+                    <h1>About Myself</h1>
+                    <p>Hello, it is nice to meet everyone. My name is Leanne Williams. I am pursuing a Master’s in Library Information Science at Mizzou. My hobbies include reading, writing, friendly debates, traveling, and trying new foods. My goals in life are to become a public librarian and a fantasy writer. Becoming a writer is something that I have wanted to do since I was about seven years old. Libraries have always been my safe haven. I want to learn web design and development so that I am able to market myself when the time comes. The other reason is that I want to be able to create many learning tools and web pages for patron usage when I become a librarian. Ultimately, I hope to do many things in my life.
+                    </p>
+                </div>
+              
+                <div class="box b">
+                    <h3><b>Education Overview</b></h3>
+                    <p>I have a bachelor’s in History from the University of Missouri - Kansas City. I am currently enrolled in a Master’s in Library Information Science from the University of Missouri - Columbia. My estimated graduation date is May, 2024</p>
+                </div>
+
+                <div class="box c">
+                    <p><a href="resume.pdf"><b>My Resume</b></a></p>
+                </div>
+
+                <div class="box d">
+                    <blockquote>"Always forgive your enemies; nothing annoys them so much" - Oscar Wilde</blockquote>
+                </div>
+            </div>
+            </header>
+            <footer>
+                <div class="box e">
+                    <p>Leanne Williams<br>
+                        <a href="mailto:lewc77@umsystem.edu">lewc77@umsystem.edu</a><br>
+                        <em> 2023 Leanne Williams Web Page. All Rights Reserved.</em>
+                    </p>
+                </div>
+            </footer>
     </main>
 </body>
+
 </html>

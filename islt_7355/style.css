@@ -87,15 +87,3 @@ body {
 		grid-column: col / span 4;
 		grid-row: row 3;
 	}
-
-
-	@media only screen and (max-width: 640px) {
-		nav {
-			position: relative;
-			height: 40px;
-			display: block;
-			background-color: cadetblue;
-			width: 100%;        
-	
-		}
-	}

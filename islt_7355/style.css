@@ -50,7 +50,7 @@ body {
 
 .wrapper {
 		display: grid;
-    grid-gap: 100px;
+   	    grid-gap: 100px;
 		grid-template-columns: [col] 200px [col] 200px [col] 200px [col] 200px  ;
 		grid-template-rows: [row] auto [row] auto [row] ;
 		background-color: #fff;
@@ -86,4 +86,25 @@ body {
 	.e {
 		grid-column: col / span 4;
 		grid-row: row 3;
+	}
+
+
+	@media only screen and (max-width: 940px) {
+		nav {
+			position: relative;
+			height: 40px;
+			display: block;
+			background-color: cadetblue;
+			width: 100%;        
+	
+		}
+	}
+
+	#hamburger {
+		display: inline-block;
+		padding-left: 20px;
+		width: 26px;
+		position: left;
+		float:none;
+		font-size: 2em;
 	}

@@ -16,6 +16,14 @@
     padding: 0;
     margin: 0;
 }
+
+.logo{
+    float: left;
+    display: inline;
+    height: 110px;     
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
 li{
     background: beige;
     width: 150px;

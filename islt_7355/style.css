@@ -24,7 +24,7 @@ div.b {
 
 div {
   background-color: lightgrey;
-  width: 15px 15px 15px 15px;
+  width: 500px;
   padding: 10px 10px 10px 10px;
   margin: 20px;
 }
@@ -93,7 +93,7 @@ body {
 		nav {
 			position: relative;
 			height: 40px;
-			display: block;
+			display:block;
 			background-color: cadetblue;
 			width: 100%;        
 	
@@ -101,10 +101,10 @@ body {
 	}
 
 	#hamburger {
-		display: inline-block;
+		display: inline;
 		padding-left: 20px;
-		width: 26px;
-		position: left;
+		width: 5px;
+		position:relative;
 		float:none;
-		font-size: 2em;
+		font-size: 1.5em;
 	}

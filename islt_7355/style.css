@@ -114,11 +114,24 @@ footer{
 	background-image: url("Images/footer.jpg");
 	color: white;
 }
+footer div{
+	background-color: transparent;
+}
+
+footer .logo {
+	width: 100px;
+	height: auto;
+}
 footer img{
     width: 20px;
     height: 20px;
 }
 
+footer img:hover {
+    -ms-transform: scale(2.5);
+    -webkit-transform: scale(2.5);
+    transform: scale(2.5);
+}
 
 
 

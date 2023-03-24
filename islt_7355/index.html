@@ -1,0 +1,83 @@
+<!--
+
+Title: Leanne's Website
+Use: About Myself and Purpose
+Author: Leanne Williams
+School/Term: Mizzou University, Spring 2023
+Developed: March 22, 2023
+Tested: March 22, 2023; Passed on Firefox and Chrome browsers.
+
+-->
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico">
+    <title>Leanne's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <div class="flex-container">
+        <nav>
+            <label id="hamburger">&#9776;</label>
+            <ul>
+                <li class="standard"><a href="index.html"><b>Home</b></a></li>
+                <li class="active"><a href="about.html"><b>About</b></a></li>
+                <li><a href="projects.html"><b>Projects</b></a>
+                    <ul id="mobileHide">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </li>
+                <li class="lastMobile"><a href="reflection.html"><b>Reflection</b></a></li>
+                <li><a href="#"><b>Contact</b></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1>Welcome to my Professional Website!</h1>
+    <main>
+        <header>
+            <div class="wrapper">
+
+                <div class="box a">
+                    <h3><b>About Myself</b></h3>
+                    <p>Hello, it is nice to meet everyone. My name is Leanne Williams. I am pursuing a Master’s in
+                        Library Information Science at Mizzou. My hobbies include reading, writing, friendly debates,
+                        traveling, and trying new foods. My goals in life are to become a public librarian and a fantasy
+                        writer. Becoming a writer is something that I have wanted to do since I was about seven years
+                        old. Libraries have always been my safe haven. I want to learn web design and development so
+                        that I am able to market myself when the time comes. The other reason is that I want to be able
+                        to create many learning tools and web pages for patron usage when I become a librarian.
+                        Ultimately, I hope to do many things in my life.</p>
+                </div>
+
+                <div class="box b">
+                    <h3><b>Purpose</b></h3>
+                    <p>The purpose of this website is to showcase my skill, knowledge, and experience in the field of
+                        library information science, with the goal to obtain a career as a public or academic librarian.
+                        The objectives of this website are to provide my resume in video and in document format, outline
+                        core competencies and projects in my Master’s program that have prepared me for a career in
+                        library information science, a personal reflection, as well as a contact page.</p>
+                </div>
+
+            </div>
+        </header>
+        <footer>
+            <div class="e">
+            <p>Leanne Williams<br></p>
+            <img class="pic" src="Images/email.png" alt="email"/>
+            <a href="mailto:lewc77@umsystem.edu">lewc77@umsystem.edu</a><br>
+            <p class="phone"> <img class="pic" src="Images/phone.png" alt="phone"/>phone:1+8888888888 </p>
+            <em> 2023 Leanne Williams Web Page. All Rights Reserved.</em>
+        </div>
+        </footer>
+    </main>
+</body>
+
+</html>

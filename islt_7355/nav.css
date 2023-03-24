@@ -1,0 +1,124 @@
+/* ul li {
+    display: inline-block;
+    border: 2px solid magenta;
+    text-align: center;
+    width: 100px;
+    list-style-type: none;
+    padding: 20px 20px 20px 20px;
+    margin-top: 0;
+    margin-left: 20px;
+    } */
+ /*Practicing with Flexbox*/
+ ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    float: left;
+    display: inline;
+    height: 110px;     
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+li{
+    /* background: beige; */
+    width: 150px;
+    margin: 0 10px 10px 0;
+    padding: 5px;
+    text-align: center;
+}
+/*set the standard page class to any <li> that has the class*/
+.standard a:link {
+    background-color: blueviolet;
+}
+/*format and position the main navigation menu*/
+nav {
+    top: 0px;   
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav>ul li {
+    position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
+    text-align: center;
+    font-weight: bold;
+    color: darkblue;
+    float: left;
+}
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    border: 2px dotted darkgreen;
+    padding: 15px 15px 15px 15px;
+    width: 100px; /*this is important to set so our drop-down doesn't go across the page*/
+    margin: 2px;
+}
+
+/*format all navigation <a> elements*/
+nav a:link{
+    background-color: whitesmoke;
+}
+nav a:hover, nav a:focus {
+    background-color: brown;
+}
+
+/*position sub-menu or drop-down*/
+nav ul>li ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+nav ul ul li {
+    float:none;
+}
+
+/*special hover to display the drop-down*/
+nav>ul>li:hover>ul{
+    display: block;
+}
+
+
+nav ul, nav:active ul {
+    display: none;
+    position: absolute;
+    padding: 20px 20px 20px 0px;
+    top: 20px;
+        }
+nav:hover ul {
+    display: block;
+}
+    nav:hover #mobileHide {
+    display: none;
+}
+nav li {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+nav>ul li {
+text-align: left;
+font-weight: bold;
+color: darkmagenta;
+float: left;
+}
+nav a {
+text-decoration: none;
+display: inline-block;
+border-top: none;
+border-bottom: none;
+padding: 15px 0px 15px 35px;
+width: 240px;
+margin-bottom: 2px;
+}
+nav .lastMobile {border-bottom: none;}
+nav ul li ul {
+    display:none;
+}
+
+

@@ -7,7 +7,7 @@ h3 {
 	display: none;
 }
 
-blockquote{
+blockquote {
 	font-family: 'Delicious Handrawn', cursive;
 	font-size: 20px;
 }
@@ -40,29 +40,39 @@ div {
 	margin: 20px;
 }
 
-.flex-container {
+/* .flex-container {
 	display: flex;
 	flex-wrap: nowrap;
 	background-color: lightgreen;
-}
+} */
 
-.flex-container>div {
+/* .flex-container>div {
 	background-color: brown;
 	width: 100px;
 	margin: 10px;
 	text-align: center;
 	line-height: 75px;
 	font-size: 30px;
-}
+} */
 
 body {
 	margin: 100px;
 }
+
+.myself {
+	width: 200px;
+	height: 200px;
+	margin: 0px;
+	border-radius: 50%;
+}
+
+
+
 .wrapper {
 	display: grid;
-	   grid-gap: 100px;
-	grid-template-columns: [col] 200px [col] 200px [col] 200px [col] 200px  ;
-	grid-template-rows: [row] auto [row] auto [row] ;
+	grid-gap: 20px 100px;
+	grid-template-columns: [col] 200px [col] 200px [col] 200px [col] 200px;
+	grid-template-rows: [row] auto [row] auto [row];
 	background-color: #fff;
 	color: #444;
 }
@@ -110,11 +120,12 @@ body {
 	font-size: 1.5em;
 }
 
-footer{
+footer {
 	background-image: url("Images/footer.jpg");
 	color: white;
 }
-footer div{
+
+footer div {
 	background-color: transparent;
 }
 
@@ -122,15 +133,16 @@ footer .logo {
 	width: 100px;
 	height: auto;
 }
-footer img{
-    width: 20px;
-    height: 20px;
+
+footer img {
+	width: 20px;
+	height: 20px;
 }
 
 footer img:hover {
-    -ms-transform: scale(2.5);
-    -webkit-transform: scale(2.5);
-    transform: scale(2.5);
+	-ms-transform: scale(2.5);
+	-webkit-transform: scale(2.5);
+	transform: scale(2.5);
 }
 
 
@@ -138,14 +150,38 @@ footer img:hover {
 
 
 @media only screen and (max-width: 940px) {
-	nav {
+
+	/* nav {
 		position: relative;
 		height: 40px;
 		display: block;
 		background-color: cadetblue;
 		width: 100%;
 
+	} */
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		background-color: #fff;
+		color: #444;
+
 	}
+
+	.box {
+		background-color: #444;
+		color: #fff;
+
+		padding: 40px;
+
+
+	}
+
+	.box a {
+		display: flex;
+	}
+
+
+
 }
 
 @media print {
@@ -153,12 +189,13 @@ footer img:hover {
 	nav {
 		display: none;
 	}
-	body{
+
+	body {
 		margin: 1in;
 		font-family: serif;
 		color: black;
 		background-color: #fff;
-	
+
 	}
 
 	.wrapper {
@@ -176,29 +213,34 @@ footer img:hover {
 
 	.box {
 		margin: 0;
-		
+
 		border-radius: 0px;
 		padding: 0px;
 		font-size: medium;
 	}
-	.e .logo{
+
+	.e .logo {
 		display: none;
-		
+
 	}
-	em{
+
+	em {
 		display: none;
 	}
-	.email a{
+
+	.email a {
 		text-decoration: none;
 	}
-	blockquote{
+
+	blockquote {
 		font-family: 'Delicious Handrawn', cursive;
 		font-size: large;
 	}
+
 	h2,
-h3 {
-	color: black;
-}
-	
+	h3 {
+		color: black;
+	}
+
 
 }

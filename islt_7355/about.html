@@ -22,24 +22,21 @@ Tested: March 22, 2023; Passed on Firefox and Chrome browsers.
 </head>
 
 <body>
-    <div class="flex-container">
-        <nav>
-            <label id="hamburger">&#9776;</label>
-            <ul>
-                <li class="standard"><a href="index.html"><b>Home</b></a></li>
-                <li class="active"><a href="about.html"><b>About</b></a></li>
-                <li><a href="projects.html"><b>Projects</b></a>
-                    <ul id="mobileHide">
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>
-                    </ul>
-                </li>
-                <li class="lastMobile"><a href="reflection.html"><b>Reflection</b></a></li>
-                <li><a href="#"><b>Contact</b></a></li>
-            </ul>
-        </nav>
-    </div>
+    <nav>
+        <ul>
+            <li class="standard"><a href="index.html"><b>Home</b></a></li>
+            <li class="active"><a href="about.html"><b>About</b></a></li>
+            <li id="projects"><a href="projects.html"><b>Projects</b></a>
+                <ul class="mobileHide">
+                    <li><a href="projects.html#pathfinder">Project 1</a></li>
+                    <li><a href="projects.html#digital">Project 2</a></li>
+                    <li><a href="projects.html#library">Project 3</a></li>
+                </ul>
+            </li>
+            <li class="lastMobile"><a href="reflection.html"><b>Reflection</b></a></li>
+            <li><a href="#"><b>Contact</b></a></li>
+        </ul>
+    </nav>
     <main>
         <header>
             <h1 class="hide">Leanne Williams</h1>
@@ -71,6 +68,7 @@ Tested: March 22, 2023; Passed on Firefox and Chrome browsers.
                 </div>
 
                 <div class="box c resume">
+                    <img class="myself" src="Images/Leanne_Williams_Picture.jpg" alt="myself">
                     <p><a href="resume.pdf"><b>My Resume</b></a></p>
                 </div>
 
@@ -82,13 +80,13 @@ Tested: March 22, 2023; Passed on Firefox and Chrome browsers.
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/0rpHMlO7j0I"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-
+                    allowfullscreen>
+                </iframe>
             </div>
         </header>
         <footer>
             <div class="e">
-                <p>Leanne Williams<br></p>
+                <p>Leanne Williams <img src="Images/sign.jpg" /><br></p>
                 <img class="pic" src="Images/email.png" alt="email" />
                 <a href="mailto:lewc77@umsystem.edu">lewc77@umsystem.edu</a><br>
                 <p class="phone"> <img class="pic" src="Images/phone.png" alt="phone" />phone:1+8888888888 </p>

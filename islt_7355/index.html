@@ -21,24 +21,22 @@ Tested: March 22, 2023; Passed on Firefox and Chrome browsers.
 </head>
 
 <body>
-    <div class="flex-container">
-        <nav>
-            <label id="hamburger">&#9776;</label>
-            <ul>
-                <li class="standard"><a href="index.html"><b>Home</b></a></li>
-                <li class="active"><a href="about.html"><b>About</b></a></li>
-                <li><a href="projects.html"><b>Projects</b></a>
-                    <ul id="mobileHide">
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>
-                    </ul>
-                </li>
-                <li class="lastMobile"><a href="reflection.html"><b>Reflection</b></a></li>
-                <li><a href="#"><b>Contact</b></a></li>
-            </ul>
-        </nav>
-    </div>
+
+    <nav>
+        <ul>
+            <li class="standard"><a href="index.html"><b>Home</b></a></li>
+            <li class="active"><a href="about.html"><b>About</b></a></li>
+            <li id="projects"><a href="projects.html"><b>Projects</b></a>
+                <ul class="mobileHide">
+                    <li><a href="projects.html#pathfinder">Project 1</a></li>
+                    <li><a href="projects.html#digital">Project 2</a></li>
+                    <li><a href="projects.html#library">Project 3</a></li>
+                </ul>
+            </li>
+            <li class="lastMobile"><a href="reflection.html"><b>Reflection</b></a></li>
+            <li><a href="#"><b>Contact</b></a></li>
+        </ul>
+    </nav>
 
     <h1>Welcome to my Professional Website!</h1>
     <main>
@@ -70,12 +68,12 @@ Tested: March 22, 2023; Passed on Firefox and Chrome browsers.
         </header>
         <footer>
             <div class="e">
-            <p>Leanne Williams<br></p>
-            <img class="pic" src="Images/email.png" alt="email"/>
-            <a href="mailto:lewc77@umsystem.edu">lewc77@umsystem.edu</a><br>
-            <p class="phone"> <img class="pic" src="Images/phone.png" alt="phone"/>phone:1+8888888888 </p>
-            <em> 2023 Leanne Williams Web Page. All Rights Reserved.</em>
-        </div>
+                <p>Leanne Williams <img src="Images/sign.jpg" /><br></p>
+                <img class="pic" src="Images/email.png" alt="email" />
+                <a href="mailto:lewc77@umsystem.edu">lewc77@umsystem.edu</a><br>
+                <p class="phone"> <img class="pic" src="Images/phone.png" alt="phone" />phone:1+8888888888 </p>
+                <em> 2023 Leanne Williams Web Page. All Rights Reserved.</em>
+            </div>
         </footer>
     </main>
 </body>

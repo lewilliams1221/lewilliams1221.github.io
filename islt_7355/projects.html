@@ -21,61 +21,64 @@ Tested: March 22, 2023; Passed on Firefox and Chrome browsers.
 </head>
 
 <body>
-  <div class="flex-container">
-    <nav>
-      <label id="hamburger">&#9776;</label>
-      <ul>
-        <li class="standard"><a href="index.html"><b>Home</b></a></li>
-        <li class="active"><a href="about.html"><b>About</b></a></li>
-        <li><a href="projects.html"><b>Projects</b></a>
-          <ul id="mobileHide">
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-          </ul>
-        </li>
-        <li class="lastMobile"><a href="reflection.html"><b>Reflection</b></a></li>
-        <li><a href="#"><b>Contact</b></a></li>
-      </ul>
-    </nav>
-  </div>
+  <nav>
+    <ul>
+      <li class="standard"><a href="index.html"><b>Home</b></a></li>
+      <li class="active"><a href="about.html"><b>About</b></a></li>
+      <li id="projects"><a href="projects.html"><b>Projects</b></a>
+        <ul class="mobileHide">
+          <li><a href="projects.html#pathfinder">Project 1</a></li>
+          <li><a href="projects.html#digital">Project 2</a></li>
+          <li><a href="projects.html#library">Project 3</a></li>
+        </ul>
+      </li>
+      <li class="lastMobile"><a href="reflection.html"><b>Reflection</b></a></li>
+      <li><a href="#"><b>Contact</b></a></li>
+    </ul>
+  </nav>
   <h1>Welcome to Leanne's Website</h1>
   <main>
     <header>
 
       <div class="wrapper">
         <div class="box a">
-          <p>Lib guide/pathfinder - In the IS_LT 7314 Reference sources and Services, one main project was to create a
+          <p id="pathfinder">Lib guide/pathfinder - In the IS_LT 7314 Reference sources and Services, one main
+            project was to create a
             pathfinder for patron usage. This is my LibGuide, with the topic of worldbuilding in fiction writing:
             https://lis-missouri.libguides.com/c.php?g=1280537. In this pathfinder, I provide resources and information
             on how to craft a fiction world using videos, encyclopedias, other fiction works to take examples from, and
             “writing events near you”. Here I learned how to design information in a way that is most accessible to
             people.</p>
-      </div>
+          <a href="project1.html">pathfinder project details</a>
+        </div>
         <div class="box d">
-          <p>IS_LT 7361 Intro to digital media - This class taught me how to create digital media in an instructional
+          <p id="digital">IS_LT 7361 Intro to digital media - This class taught me how to create digital media in an
+            instructional
             way. For instance, our final was to create a video that included music, transitions, voice-over audio, and
             visual content to teach a concept to an audience. This digital media class taught me to be mindful of how
             I’m relaying information for better understanding, as well as the best possible ways to teach a general
             audience how to do something.</p>
+          <a href="project2.html">Digital Media project details</a>
         </div>
         <div class="box b">
-          <p>IS_LT 7301 Introduction to Library Information Science - In this class, I learned the fundamentals of what
+          <p id="library">IS_LT 7301 Introduction to Library Information Science - In this class, I learned the
+            fundamentals of what
             a library informational professional does, and why. I learned that library information science is constantly
             changing with the technological-based society we live in and that it’s important to keep evolving and
             learning new things to stay professionally relevant and impactful.</p>
+          <a href="project3.html">ILIS project details</a>
         </div>
       </div>
     </header>
     <footer>
       <div class="e">
-      <p>Leanne Williams<br></p>
-      <img class="pic" src="Images/email.png" alt="email"/>
-      <a href="mailto:lewc77@umsystem.edu">lewc77@umsystem.edu</a><br>
-      <p class="phone"> <img class="pic" src="Images/phone.png" alt="phone"/>phone:1+8888888888 </p>
-      <em> 2023 Leanne Williams Web Page. All Rights Reserved.</em>
-  </div>
-  </footer>
+        <p>Leanne Williams <img src="Images/sign.jpg" /><br></p>
+        <img class="pic" src="Images/email.png" alt="email" />
+        <a href="mailto:lewc77@umsystem.edu">lewc77@umsystem.edu</a><br>
+        <p class="phone"> <img class="pic" src="Images/phone.png" alt="phone" />phone:1+8888888888 </p>
+        <em> 2023 Leanne Williams Web Page. All Rights Reserved.</em>
+      </div>
+    </footer>
   </main>
 </body>
 

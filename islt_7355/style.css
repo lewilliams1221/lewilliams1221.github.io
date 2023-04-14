@@ -205,10 +205,45 @@ input[type=submit]:hover {
 
 /*contact ends*/
 
+/*table starts*/
 
+.styled-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 0.9em;
+	font-family: sans-serif;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 
+}
 
+.styled-table thead tr {
+	background-color: rgb(13, 37, 2);
+	color: #ffffff;
 
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.styled-table th,
+.styled-table td {
+	padding: 12px 15px;
+	border: 1px solid rgb(0, 0, 0);
+}
+
+.styled-table {
+	flex-direction: column;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+caption {
+	font-weight: bold;
+}
+
+/*table ends*/
 
 @media only screen and (max-width: 940px) {
 

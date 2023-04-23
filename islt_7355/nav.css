@@ -40,6 +40,15 @@ nav a {
     flex-direction: row;
 }
 
+.hamburger {
+    display: inline;
+    padding-left: 20px;
+    width: 5px;
+    position:relative;
+    float:none;
+    font-size: 1.5em;
+}
+
 @media only screen and (max-width: 940px) {
     nav ul {
         display: flex;

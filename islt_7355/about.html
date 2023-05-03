@@ -3,8 +3,8 @@ Title: Leanne's Website
 Use: About Myself and Education Overview
 Author: Leanne Williams
 School/Term: Mizzou University, Spring 2023
-Developed: April 27, 2023
-Tested: April 27, 2023 Passed on Firefox and Chrome browsers.
+Developed: May 03, 2023
+Tested: May 03, 2023 Passed on Firefox and Chrome browsers.
 -->
 <!DOCTYPE html>
 <html lang="en-US">
@@ -21,7 +21,6 @@ Tested: April 27, 2023 Passed on Firefox and Chrome browsers.
     <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
 
 </head>
-
 <body>
     <nav>
         <ul>
@@ -85,6 +84,9 @@ Tested: April 27, 2023 Passed on Firefox and Chrome browsers.
                     allowfullscreen>
                 </iframe>
             </div>
+            <p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Click me for a quote</button>
             <h1>Available Timings</h1>
             <table class="styled-table">
                 <caption style="caption-side:top">Book an Appointment</caption>
@@ -120,5 +122,10 @@ Tested: April 27, 2023 Passed on Firefox and Chrome browsers.
             </div>
         </footer>
     </main>
+    <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Always forgive your enemies; nothing annoys them so much.";
+        }
+    </script>
 </body>
 </html>
